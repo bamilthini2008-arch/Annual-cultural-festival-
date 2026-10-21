@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="History, aim, venues and contact summary of the Annual Cultural Festival.">
+<title>About | Annual Cultural Festival</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Annual Cultural Festival 2026</h1>
+<p>SRM TRP Engineering College, Tiruchirappalli</p>
+<nav aria-label="Primary">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html" aria-current="page">About</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="register.html">Register</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="evidence.html">Unit 1 Evidence</a></li>
+</ul>
+</nav>
+</header>
+<main id="main-content">
+<article id="history">
+<h2>Our History</h2>
+<p>The festival started in <time datetime="2015-12-10">December 2015</time> with 8 events and 300 participants. Today it hosts <strong>25 events</strong> and more than <strong>2,000 participants</strong> from the college and nearby institutions.</p>
+<blockquote cite="https://festival.example.edu/about.html">
+<p>Culture is the heart of a campus, and art is its heartbeat.</p>
+</blockquote>
+<p>&mdash; Principal, during the inaugural function.</p>
+</article>
+<section id="aim">
+<h2>Aim and Objectives</h2>
+<ul>
+<li>Give every student a stage, with a target of at least <var>N</var> = 25 events and <var>P</var> &ge; 2,000 participants (<var>P</var>/<var>N</var> &asymp; 80 per event).</li>
+<li>Keep traditional art forms such as Bharatanatyam, Karakattam and Villu Paattu alive.</li>
+<li>Promote <mark>teamwork, creativity and sustainable celebration</mark>.</li>
+</ul>
+<p>As our students often say, <q>the stage belongs to everyone</q>.</p>
+</section>
+<section id="venues">
+<h2>Venues</h2>
+<figure>
+<img src="images/open-air-stage.png" alt="Illustration of the open-air stage with a lit backdrop, spotlights and rows of audience seats" width="800" height="450">
+<figcaption>Figure 2: The open-air stage and audience area.</figcaption>
+</figure>
+<dl>
+<dt>Open-Air Stage</dt>
+<dd>Main stage for dance, music and the closing ceremony.</dd>
+<dt>Mini Auditorium</dt>
+<dd>Drama, skit and speech events with 400 seats.</dd>
+<dt>Art Gallery Hall</dt>
+<dd>Rangoli, painting and photography exhibitions, with CO<sub>2</sub>-free decorations made from recycled material.</dd>
+</dl>
+<h3>Sample stage cue shown to the sound team</h3>
+<pre><code>light.on("stage", colour="gold")
+music.play("welcome-song")</code></pre>
+</section>
+<section id="contact-summary">
+<h2>Contact Summary</h2>
+<p>Office: Block C, First Floor. Email <a href="mailto:festival@college.example.edu">festival@college.example.edu</a>. Full details are on the <a href="contact.html">contact page</a>.</p>
+</section>
+</main>
+<footer>
+<p><small>&copy; <time datetime="2026">2026</time> Annual Cultural Festival, Department of CSE. Sample project for 2611CSSJ102 Web Essentials by B. Amilthini.</small></p>
+<p lang="ta">ஆண்டு கலைவிழா 2026</p>
+</footer>
+</body>
+</html>
+Events.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Event schedule of the Annual Cultural Festival 2026.">
+<title>Events | Annual Cultural Festival</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Annual Cultural Festival 2026</h1>
+<p>SRM TRP Engineering College, Tiruchirappalli</p>
+<nav aria-label="Primary">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="events.html" aria-current="page">Events</a></li>
+<li><a href="register.html">Register</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="evidence.html">Unit 1 Evidence</a></li>
+</ul>
+</nav>
+</header>
+<main id="main-content">
+<section id="event-table">
+<h2>Event Schedule</h2>
+<p>The table lists the main events of the festival. Each row is one event; the first column names the event, and the following columns give its category, day, team size and timing. The final row is a single note that spans the timing columns.</p>
+<div class="table-wrap">
+<table>
+<caption>Table 1: Events, days, team size and timings</caption>
+<thead>
+<tr>
+<th scope="col" rowspan="2">Event</th>
+<th scope="col" rowspan="2">Category</th>
+<th scope="col" rowspan="2">Day</th>
+<th scope="colgroup" colspan="2">Timing</th>
+</tr>
+<tr>
+<th scope="col">Start</th>
+<th scope="col">End</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Folk Dance</th>
+<td>Dance</td>
+<td>1</td>
+<td>10:00</td>
+<td>12:00</td>
+</tr>
+<tr>
+<th scope="row">Solo Singing</th>
+<td>Music</td>
+<td>1</td>
+<td>14:00</td>
+<td>16:00</td>
+</tr>
+<tr>
+<th scope="row">Street Play</th>
+<td>Drama</td>
+<td>2</td>
+<td>10:00</td>
+<td>12:30</td>
+</tr>
+<tr>
+<th scope="row">Rangoli Contest</th>
+<td>Art</td>
+<td>2</td>
+<td>14:00</td>
+<td>16:00</td>
+</tr>
+<tr>
+<th scope="row">Prize Distribution</th>
+<td>Ceremony</td>
+<td>3</td>
+<td colspan="2">Evening programme, 17:00 onwards</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="hint">Timings may change slightly each year. Final timings are announced on the notice board.</p>
+</section>
+</main>
+<footer>
+<p><small>&copy; <time datetime="2026">2026</time> Annual Cultural Festival, Department of CSE. Sample project for 2611CSSJ102 Web Essentials by B. Amilthini.</small></p>
+<p lang="ta">ஆண்டு கலைவிழா 2026</p>
+</footer>
+</body>
+</html>
+register.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Registration form for the Annual Cultural Festival 2026.">
+<title>Register | Annual Cultural Festival</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Annual Cultural Festival 2026</h1>
+<p>SRM TRP Engineering College, Tiruchirappalli</p>
+<nav aria-label="Primary">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="register.html" aria-current="page">Register</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="evidence.html">Unit 1 Evidence</a></li>
+</ul>
+</nav>
+</header>
+<main id="main-content">
+<section id="registration">
+<h2>Festival Registration</h2>
+<p>Fill in this form to register for the festival. Fields marked <strong>required</strong> must be completed.</p>
+<!-- The form uses POST so personal details are not shown in the URL. Server-side validation is still needed when this is hosted. -->
+<form action="https://festival.example.edu/register" method="post" enctype="multipart/form-data">
+<fieldset>
+<legend>Personal details</legend>
+<label for="full-name">Full name (required, 3&ndash;60 characters)</label>
+<input type="text" id="full-name" name="full_name" required minlength="3" maxlength="60" autocomplete="name">
+<label for="email">Email address (required)</label>
+<input type="email" id="email" name="email" required autocomplete="email">
+<label for="phone">Mobile number</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{10}" aria-describedby="phone-hint" autocomplete="tel">
+<span class="hint" id="phone-hint">Format: 10 digits, for example 9876543210.</span>
+<label for="event-date">Preferred day of participation</label>
+<input type="date" id="event-date" name="event_date" min="2026-12-10" max="2026-12-12" required>
+<label for="members">Number of team members (1&ndash;6)</label>
+<input type="number" id="members" name="members" min="1" max="6" value="1" required>
+</fieldset>
+<fieldset class="choice">
+<legend>Type of registration</legend>
+<input type="radio" id="type-participant" name="reg_type" value="participant" checked>
+<label for="type-participant">Participant</label>
+<input type="radio" id="type-audience" name="reg_type" value="audience">
+<label for="type-audience">Audience</label>
+</fieldset>
+<fieldset class="choice">
+<legend>Events of interest</legend>
+<input type="checkbox" id="ev-dance" name="events" value="dance">
+<label for="ev-dance">Dance</label>
+<input type="checkbox" id="ev-music" name="events" value="music">
+<label for="ev-music">Music</label>
+<input type="checkbox" id="ev-drama" name="events" value="drama">
+<label for="ev-drama">Drama</label>
+</fieldset>
+<fieldset>
+<legend>Session and remarks</legend>
+<label for="session">Session</label>
+<select id="session" name="session" required>
+<option value="">Choose a session</option>
+<option value="morning">Morning, 10:00 to 12:30</option>
+<option value="afternoon">Afternoon, 14:00 to 16:00</option>
+</select>
+<label for="remarks">Special requirements or remarks</label>
+<textarea id="remarks" name="remarks" rows="4" cols="40" maxlength="300"></textarea>
+<label for="idcard">Upload college ID card (optional)</label>
+<input type="file" id="idcard" name="idcard" accept=".pdf,.jpg,.png" aria-describedby="file-hint">
+<span class="hint" id="file-hint">PDF, JPG or PNG, up to 2 MB.</span>
+</fieldset>
+<button type="submit">Submit registration</button>
+</form>
+</section>
+</main>
+<footer>
+<p><small>&copy; <time datetime="2026">2026</time> Annual Cultural Festival, Department of CSE. Sample project for 2611CSSJ102 Web Essentials by B. Amilthini.</small></p>
+<p lang="ta">ஆண்டு கலைவிழா 2026</p>
+</footer>
+</body>
+</html>
+Contact.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Address, email, telephone and coordinator timings of the Annual Cultural Festival.">
+<title>Contact | Annual Cultural Festival</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Annual Cultural Festival 2026</h1>
+<p>SRM TRP Engineering College, Tiruchirappalli</p>
+<nav aria-label="Primary">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="register.html">Register</a></li>
+<li><a href="contact.html" aria-current="page">Contact</a></li>
+<li><a href="evidence.html">Unit 1 Evidence</a></li>
+</ul>
+</nav>
+</header>
+<main id="main-content">
+<section id="contact-details">
+<h2>Contact Us</h2>
+<p><a href="#office-hours">Jump to coordinator timings</a></p>
+<address>
+Annual Cultural Festival Committee<br>
+SRM TRP Engineering College, Block C<br>
+Tiruchirappalli, Tamil Nadu 621 105
+</address>
+<ul>
+<li>Email: <a href="mailto:festival@college.example.edu">festival@college.example.edu</a></li>
+<li>Telephone: <a href="tel:+914310000000">+91 431 000 0000</a></li>
+<li>Brochure: <a href="documents/festival-brochure-2026.pdf" download>Download the 2026 brochure (PDF, 2 KB)</a></li>
+<li>Map: <a href="https://www.openstreetmap.org/#map=13/10.8050/78.6856" target="_blank" rel="noopener">View Tiruchirappalli on OpenStreetMap (opens in a new tab)</a></li>
+</ul>
+<p class="hint">The external link uses <code>rel="noopener"</code> so the new tab cannot control this page through <code>window.opener</code>.</p>
+</section>
+<section id="office-hours">
+<h2>Coordinator Timings</h2>
+<table>
+<caption>Table 2: Festival committee office timings</caption>
+<thead>
+<tr>
+<th scope="col">Day</th>
+<th scope="col">Hours</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Monday to Friday</th>
+<td><time datetime="09:00">9:00</time> to <time datetime="17:00">17:00</time></td>
+</tr>
+<tr>
+<th scope="row">Saturday</th>
+<td><time datetime="09:00">9:00</time> to <time datetime="13:00">13:00</time></td>
+</tr>
+<tr>
+<th scope="row">Sunday</th>
+<td>Closed</td>
+</tr>
+</tbody>
+</table>
+</section>
+</main>
+<footer>
+<p><small>&copy; <time datetime="2026">2026</time> Annual Cultural Festival, Department of CSE. Sample project for 2611CSSJ102 Web Essentials by B. Amilthini.</small></p>
+<p lang="ta">ஆண்டு கலைவிழா 2026</p>
+</footer>
+</body>
+</html>
+Evidence.html 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Unit 1 evidence: request-response process, URL analysis, tools, hosting and security.">
+<title>Unit 1 Evidence | Annual Cultural Festival</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Annual Cultural Festival 2026</h1>
+<p>SRM TRP Engineering College, Tiruchirappalli</p>
+<nav aria-label="Primary">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="register.html">Register</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="evidence.html" aria-current="page">Unit 1 Evidence</a></li>
+</ul>
+</nav>
+</header>
+<main id="main-content">
+<section id="request-response">
+<h2>What happens when a user opens this website</h2>
+<figure>
+<img src="images/request-response.png" alt="Diagram: browser sends URL to DNS, DNS returns IP address, browser sends HTTPS request to web server, server returns HTML and media, browser renders the page" width="1000" height="300">
+<figcaption>Figure 3: Request&ndash;response process for this website.</figcaption>
+</figure>
+<ol>
+<li>The user types the <strong>URL</strong> into the <strong>browser</strong> (the client) and presses Enter.</li>
+<li>The browser asks a <strong>DNS</strong> resolver for the <strong>IP address</strong> of <code>festival.example.edu</code>.</li>
+<li>Using that IP address, the browser sends an <strong>HTTPS request</strong> (GET /index.html) to the <strong>Web server</strong>.</li>
+<li>The server finds the file and sends a <strong>response</strong>: status code 200 and the HTML document.</li>
+<li>While reading the HTML, the browser sends further requests for the CSS, images and video.</li>
+<li>The browser <strong>renders</strong> the page from the HTML, CSS and media files.</li>
+</ol>
+</section>
+<section id="url-analysis">
+<h2>URL Analysis</h2>
+<p>Example URL: <code>https://festival.example.edu:443/events.html?day=1#event-table</code></p>
+<table>
+<caption>Table 3: Parts of the example URL</caption>
+<thead>
+<tr><th scope="col">Part</th><th scope="col">Value</th><th scope="col">Meaning</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">Scheme</th><td>https</td><td>Secure HTTP protocol</td></tr>
+<tr><th scope="row">Domain name</th><td>festival.example.edu</td><td>Name resolved to an IP address by DNS</td></tr>
+<tr><th scope="row">Port</th><td>443</td><td>Default HTTPS port (optional)</td></tr>
+<tr><th scope="row">Path</th><td>/events.html</td><td>File requested on the server</td></tr>
+<tr><th scope="row">Query</th><td>?day=1</td><td>Extra data sent to the server</td></tr>
+<tr><th scope="row">Fragment</th><td>#event-table</td><td>Section of the page to scroll to</td></tr>
+</tbody>
+</table>
+<h3>Relative paths</h3>
+<ul>
+<li><code>images/open-air-stage.png</code> in about.html: the browser joins it with the current folder, giving <code>http://localhost:8000/images/open-air-stage.png</code>.</li>
+<li><code>contact.html#office-hours</code>: opens contact.html in the same folder and scrolls to the element with <code>id="office-hours"</code>.</li>
+</ul>
+</section>
+<section id="environment">
+<h2>Development Environment</h2>
+<p>Editor: Visual Studio Code. Browser: Google Chrome. Local server: Python <code>http.server</code> (XAMPP Apache works the same way).</p>
+<pre><code>cd festival-site
+python -m http.server 8000
+# open http://localhost:8000/index.html</code></pre>
+<p>After each change, I saved the file and refreshed the browser (Ctrl + R). The localhost screenshot is in the report.</p>
+</section>
+<section id="hosting">
+<h2>Hosting Recommendation</h2>
+<p>I recommend <strong>shared hosting</strong>. The site is small and static, traffic is a few hundred visits a day before the festival, and shared hosting is the cheapest option with the least administration. A VPS or dedicated server gives more control and scalability, but the festival committee does not need it yet.</p>
+<p>The <strong>domain name</strong> gives a readable address, <strong>DNS records</strong> (A record) point the name to the server&rsquo;s IP address, the <strong>hosting server</strong> stores and serves the files, and the <strong>control panel</strong> manages files, SSL certificates and email.</p>
+</section>
+<section id="security">
+<h2>Security Considerations</h2>
+<ul>
+<li>Use HTTPS so form data is encrypted in transit.</li>
+<li>No passwords or secrets are placed in HTML comments or hidden inputs.</li>
+<li>Browser validation (required, pattern, min/max) helps users, but the server must validate again.</li>
+<li>Future database code must use parameterised queries to prevent SQL injection.</li>
+<li>Uploaded files must be checked for type and size and stored outside the web root.</li>
+<li>Any user input shown back on a page must be escaped to prevent XSS.</li>
+<li>The form collects only the data needed for the registration.</li>
+<li>The hosting account uses a strong password and two-factor authentication.</li>
+</ul>
+</section>
+<section id="sources">
+<h2>Sources</h2>
+<ul>
+<li>All images and the video were created by the student for this project.</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs: HTML reference</a></li>
+</ul>
+</section>
+</main>
+<footer>
+<p><small>&copy; <time datetime="2026">2026</time> Annual Cultural Festival, Department of CSE. Sample project for 2611CSSJ102 Web Essentials by B. Amilthini.</small></p>
+<p lang="ta">ஆண்டு கலைவிழா 2026</p>
+</footer>
+</body>
+</html>
+style.css
+/* Basic readability styles only (permitted by the assignment brief) */
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.6;
+color: #2a1a22;
+background: #fbf5f7;
+}
+header,
+footer {
+background: #5a0f2e;
+color: #ffffff;
+padding: 1rem 1.5rem;
+}
+header p {
+margin: 0.2rem 0 0;
+color: #ffc43d;
+}
+nav ul {
+list-style: none;
+margin: 0.8rem 0 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+gap: 0.5rem;
+}
+nav a {
+color: #ffffff;
+padding: 0.3rem 0.7rem;
+border-radius: 4px;
+}
+nav a[aria-current="page"] {
+background: #ffc43d;
+color: #5a0f2e;
+font-weight: bold;
+}
+main {
+max-width: 960px;
+margin: 0 auto;
+padding: 1rem 1.5rem 2rem;
+background: #ffffff;
+}
+img,
+video {
+max-width: 100%;
+height: auto;
+}
+figure {
+margin: 1rem 0;
+}
+figcaption {
+font-size: 0.9rem;
+color: #6a4a58;
+}
+table {
+border-collapse: collapse;
+width: 100%;
+margin: 1rem 0;
+}
+th,
+td {
+border: 1px solid #cdb4c0;
+padding: 0.4rem 0.6rem;
+text-align: left;
+vertical-align: top;
+}
+thead th {
+background: #f3e1ea;
+}
+caption {
+font-weight: bold;
+text-align: left;
+padding-bottom: 0.4rem;
+}
+fieldset {
+margin: 1rem 0;
+border: 1px solid #cdb4c0;
+}
+label {
+display: block;
+margin-top: 0.7rem;
+font-weight: bold;
+}
+.choice label {
+display: inline;
+font-weight: normal;
+}
+input,
+select,
+textarea {
+font: inherit;
+padding: 0.3rem;
+}
+.hint {
+font-size: 0.85rem;
+color: #6a4a58;
+}
+pre {
+background: #f6eef2;
+padding: 0.8rem;
+overflow-x: auto;
+}
+footer a {
+color: #ffc43d;
+}
+/* Fix for test T12: keep wide tables readable on small screens */
+.table-wrap {
+overflow-x: auto;
+}
+@media (max-width: 600px) {
+th,
+td {
+padding: 0.25rem 0.35rem;
+font-size: 0.85rem;
+}
+}
